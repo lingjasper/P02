@@ -1,0 +1,188 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+/* 1. Change the default font. */
+/* LEARNED IN LAB */
+body {
+  font-family: 'Poppins-Regular', Verdana;
+  padding: 2rem;
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+}
+/* HYPERLINK */
+a { 
+  color: rgb(108, 38, 38);
+}
+/* HYPERLINK HOVER */
+a:hover {
+  color:rgb(255, 0, 0);
+  transition: 0.25s ease-in-out;
+}
+/* CATEGORY */
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: rgb(108, 38, 38)
+}
+/* 3. Add a different hover and focus state styling to the in-text link. */
+.intext-link-button {
+  background-color:  rgb(205, 205, 205);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+
+}
+
+.intext-link-button:hover,
+.intext-link-button:focus,
+.intext-link-button:active {
+  background-color:    #e9e9e9;
+  color: rgb(0, 0, 0);
+  transition: background-color 0.35s ease-out;
+}
+
+.table {
+  border: solid black;
+}
+
+/* NAVIGATION BAR BUTTONS */
+.navBut {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 0.3rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+/* NAVIGATION SPECIALS */
+.navBut:hover,
+.navBut:focus,
+.navBut:active
+ {
+  color: #e73232;
+  text-decoration: none;
+  transition: 0.25s ease-in-out;
+}
+/* NINTENELEVEN RED */
+.logo {
+  color: #e73232;
+}
+
+h2:not(.header2) {
+  margin-top: 6rem;
+}
+h3:not(.header3) {
+  font-style: italic;
+  margin-top: 1rem;
+}
+h4:not(.header4) {
+  margin-bottom: 0.25rem;
+}
+/* PARAGRAPH */
+p {
+  margin-top: 0;
+}
+/* NAVIGATION BAR COLOUR */
+nav {
+  background-color: #f0f0f0;
+  padding: 0.5rem;
+  display: block;
+}
+/* SUB NAVIGATION BAR COLOUR */
+.navAnchor {
+  background-color: #dddddd;
+}
+nav a:hover,
+nav a:focus {
+  text-decoration: none;
+}
+code {
+  background-color: #f0f0f0;
+  padding: 0.5rem;
+  display: block;
+}
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: rgb(108, 38, 38);
+  background-color:  #f0f0f0;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.25s;
+  border-radius: 2rem;
+  border: solid;
+}
+.button-nav:hover,
+.button-nav:focus {
+  background-color: rgb(255, 255, 255);
+  border: solid #e73232;
+  color: #e73232;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+/* 2. Add space between <section> elements. */
+
+/* LEARNED IN LAB */
+section {
+  margin-top: 3rem;
+}
+/* 4. Add a different hover and focus state styling to the image as a link. */
+
+/* LEARNED IN LAB */
+
+.imgcrop {
+  max-width: 425;
+}
+
+figure img:hover,
+figure img:active,
+figure img:focus {
+  opacity: 60%;
+  transition-duration: 0.25s;
+  
+}
+
+/* 5. Shorten the default width of the <p> element, but ensure it is still responsive when the viewport shrinks. */
+
+/* LEARNED IN LAB */
+p,
+ul,
+ol {
+  max-width: 40rem;
+}
+
+
+/* 6. Style the <input> and <label> using Building Forms (Shay Howe)Links to an external site. as a guide. Add HTML as necessary to allow further control of the styling, and make sure:
+The label and text input look visually related.
+
+The text input shows us when it has been interacted with, both on hover and focus. */
+
+/* LEARNED IN LAB Source: https://learn.shayhowe.com/html-css/building-forms/#multple-choice-inputs*/
+
+input:hover,
+input:active,
+input:focus {
+  color: rgb(0, 0, 0);
+  background-color: rgb(228, 228, 228);
+  transition: 0.25s ease-in-out;
+}
+
+.serif {
+  font-family: "RobotoSlab-Regular", Times;
+
+}
+
+
+

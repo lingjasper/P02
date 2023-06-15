@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- JASPER LING IAT339 MAY 18, 2023, 3pmLAB-->
+<!-- JASPER LING IAT339 MAY 26, 2023, P1 Progress-->
+<!-- JASPER LING IAT339 JUN 02, 2023 -->
+
+<head>
+  <meta charset="utf-8" />
+  <title>P01 - Style Guide Template</title>
+
+  <link href="css/main.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/fonts.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="logo">ninteneleven</h1>
+  </header>
+
+
+  <nav>
+    <a class="navBut" href="index.html">Style Guide</a>
+    <a class="navBut" href="product_listing.html">Product Listing Template</a>
+    <a class="navBut" href="checkout.html">Checkout Template</a>
+
+
+  </nav>
+
+  <nav class="navAnchor">
+    <a class="navBut" href="#interactive_elements">Interactive Elements</a>
+    <a class="navBut" href="#text_elements">Text Elements</a>
+    <a class="navBut" href="#combined_elements">Combined Elements</a>
+    <a class="navBut" href="#citations">Citations</a>
+
+  </nav>
+
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+    <h2>Interactive Elements</h2>
+
+    <section class="element">
+      <h3>In-text link</h3>
+
+      <!-- LEARNED IN LAB-->
+      <div>
+        <p style="display: inline">Click here for</p>
+        <a target="blank"
+          href="https://www.google.com/search?q=pikachu&rlz=1C5CHFA_enCA933CA934&sxsrf=APwXEdfvRMy8btyVqMLxVSPc3VwpEVblHw:1684448730377&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiRq93B9P_-AhXBMzQIHTtNCqMQ_AUoAXoECAEQAw&biw=840&bih=946&dpr=2">photos
+          of Pikachu
+        </a>
+        <p style="display: inline">on Google Images.</p>
+      </div>
+
+    </section>
+
+    <!-- Default Button styling section -->
+    <section class="element">
+      <h3>Navigation Link</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.button-nav</p>
+
+      <h4>Sample code:</h4>
+      <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+      <h4>Rendered element:</h4>
+      <a class="button-nav" href="#">Default Button</a>
+    </section>
+
+    <section class="element">
+      <h3>Submit/Reset Buttons</h3>
+      <input class="button-nav" type="submit" value="Submit">
+      <input class="button-nav" type="reset" value="Reset">
+
+    </section>
+
+    <section class="element">
+      <h3>Text Input Field with Label</h3>
+
+      <!-- learned in class -->
+
+      <form>
+        <label for="form-name">Username:</label>
+        <input class="button-nav" type="text" id="form-name" placeholder="username" />
+      </form>
+      <br>
+      <form>
+        <label for="form-name">Password:</label>
+        <input class="button-nav" type="text" id="form-name" placeholder="password" />
+      </form>
+    </section>
+
+    <section class="element">
+      <h3>Radio Button with Label</h3>
+
+      <input type="radio" id="adventure" name="category" value="Adventure">
+      <label for="adventure">Adventure</label><br>
+      <input type="radio" id="horror" name="category" value="Horror">
+      <label for="horror">Horror</label><br>
+      <input type="radio" id="rpg" name="category" value="Role Play">
+      <label for="rpg">Role Play</label>
+
+    </section>
+
+    <section class="element">
+      <h3>Image as a Link</h3>
+
+      <!-- An image as a link  -->
+
+      <!-- learned from class -->
+      <!-- Painting Acrylic Pikachu Art Kit -->
+      <!-- Image taken from: https://www.ftla.ca/painting-acrylic-pikachu-art-kit.html-->
+
+      <figure>
+
+        <a target="blank" href="https://www.bitgab.com/exercise/pikachu">
+          <img class="product-item-border" src="img/pikachu.png" alt="A Pokemon Called Pikachu" width="400" />
+        </a>
+
+      </figure>
+
+
+    </section>
+  </section>
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <section id="text_elements">
+    <h2>Text Elements</h2>
+
+    <section class="element">
+      <h3>Headings</h3>
+
+      <h1 class="header1">H1 Headings - Page Title</h1>
+      <h2 class="header2">H2 Headings - Section Header</h2>
+      <h3 class="header3">H3 Headings - Sub Section Header</h3>
+      <h4 class="header4">H4 Headings - Secondary Sub Section Header</h4>
+    </section>
+
+    <section class="element">
+      <h3>Paragraphs</h3>
+
+      <!-- learned in class -->
+
+      <p class="times">
+        Ninteneleven develops, manufactures and sells electronic home entertainment products. The company develops
+        hardware and software for handheld and home console video game systems, with support from various companies and
+        organizations. In addition to video games, Ninteneleven also offers a range of accessories and peripherals that
+        enhance the gaming experience, such as controllers, virtual reality devices, and gaming headsets. These products
+        are designed to complement their video game systems and provide users with immersive and interactive gameplay.
+      </p>
+    </section>
+
+    <section class="element">
+      <h3>Numbered Lists</h3>
+      <ol>
+        <li>
+          <a>Purchase a physical copy of the game in store</a>
+        </li>
+        <li>
+          <a>Purchase a digital copy and play at midnight</a>
+        </li>
+        <li>
+          <a>Purchase downloadable content when available</a>
+        </li>
+      </ol>
+    </section>
+  </section>
+  <!-- // TEXT ELEMENTS SECTION -->
+
+  <!-- COMBINED ELEMENTS SECTION // -->
+  <section id="combined_elements">
+    <h2>Combined Elements</h2>
+
+    <section class="element">
+      <h3>Main Navigation</h3>
+
+      <nav>
+        <a class="navBut" href="#">Home</a>
+        <a class="navBut" href="#">What's New</a>
+        <a class="navBut" href="#">Games</a>
+        <a class="navBut" href="#">Consoles</a>
+        <a class="navBut" href="#">My Account</a>
+        <a class="navBut" href="#">Support</a>
+
+
+      </nav>
+
+
+    </section>
+
+    <section class=" element">
+      <h3>Product/Service Listing</h3>
+      <div class="box">
+
+        <div class="box-item product-item-border">
+
+          <img src="img/totk.jpeg" alt="The Legend of Zelda: Tears of the Kingdom" width="200">
+
+          <h2 class=" header2">The Legend of Zelda: Tears of the Kingdom</h2>
+          <h3 class="header3">$89.99 CAD</h3>
+
+          <p>Explore the vast land—and skies—of Hyrule.</p>
+
+          <a class="button-nav"
+            href="https://www.nintendo.com/en-ca/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/">Learn
+            More</a>
+          <input class="button-nav" type="reset" value="Add to Cart">
+          <br>
+
+        </div>
+
+        <div class="box-item product-item-border">
+          <img src="img/odyssey.jpg" alt="Super Mario Odyssey" width="200">
+          <h2 class="header2">Super Mario Odyssey</h2>
+          <h3 class="header3">$79.99 CAD</h3>
+
+          <p>Embark on a cap-tivating, globe-trotting adventure.</p>
+
+          <a class="button-nav" href="https://www.nintendo.com/en-ca/store/products/super-mario-odyssey-switch">Learn
+            More</a>
+          <input class="button-nav" type="reset" value="Add to Cart">
+          <br>
+        </div>
+
+        <div class="box-item product-item-border">
+          <img src="img/arceus.jpg" alt="Pokemon Legends Arceus" width="200">
+          <h2 class="header2">Pokemon Legends Arceus</h2>
+          <h3 class="header3">$79.99 CAD</h3>
+
+          <p>Action meets RPG as the Pokémon series reaches a new frontier.</p>
+
+          <a class="button-nav"
+            href="https://www.nintendo.com/en-ca/store/products/pokemon-legends-arceus-switch/">Learn
+            More</a>
+          <input class="button-nav" type="reset" value="Add to Cart">
+          <br>
+        </div>
+      </div> <!--END FLEX BOX-->
+
+    </section>
+
+    <section class="element">
+      <h3>Payment Form</h3>
+      <div class="box locksize30">
+
+        <div class="box-item pay-border">
+          <h3 class="header3">Enter Billing Address</h3>
+          <h4 class="element"></h4>
+
+          <form>
+
+            <label for="form-name">First Name:</label>
+            <input class="button-nav" type="text" id="form-name" placeholder="John" /><br><br>
+            <label for="form-name">Last Name:</label>
+            <input class="button-nav" type="text" id="form-name" placeholder="Smith" /><br><br>
+            <label for="form-name">Address:</label>
+            <input class="button-nav" type="text" id="form-name" placeholder="123 Street" /><br><br>
+            <label for="form-name">Area Code:</label>
+            <input class="button-nav" type="text" id="form-name" placeholder="A1B2C3" /><br><br>
+            <label for="form-name">Country:</label>
+            <input class="button-nav" type="text" id="form-name" placeholder="Canada" /><br><br>
+            <label for="form-name">Province/State:</label>
+            <input class="button-nav" type="text" id="form-name" placeholder="Manitoba" /><br><br>
+
+          </form>
+        </div>
+
+        <div class="box-item pay-border">
+
+          <h3 class="header3">Select Payment Method</h3>
+          <h4 class="element"></h4>
+
+          <input type="radio" id="payment1" name="payment" value="mastercard">
+          <label for="payment1">Mastercard</label><br>
+
+          <input type="radio" id="payment2" name="payment" value="mastercard">
+          <label for="payment2">Visa</label><br>
+
+          <input type="radio" id="payment3" name="payment" value="mastercard">
+          <label for="payment3">Paypal</label><br>
+
+          <input type="radio" id="payment4" name="payment" value="mastercard">
+          <label for="payment4">Interac</label><br><br>
+
+
+          <h3 class="header3">Enter Payment Credentials</h3>
+          <h4 class="element"></h4>
+
+          <form>
+
+            <label for="form-name">Card Number:</label>
+            <input class="button-nav" type="text" id="form-name" placeholder="XXXX-XXXX-XXXX-XXXX" /><br><br>
+            <label for="form-name">Expiry Date:</label>
+            <input class="button-nav" type="text" id="form-name" placeholder="MM/YEAR" /><br><br>
+
+            <label for="form-name">CVV:</label>
+            <input class="button-nav" type="text" id="form-name" placeholder="123" />
+          </form>
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+    </section>
+
+    <section class="element">
+      <h3>Checkout Cart</h3>
+
+      <div class="box-item total-border locksize30">
+        <h3 class="header3">Checkout: </h3>
+        <h4 class="element"></h4>
+
+        <form>
+
+          <h4 class="header3">Items: 2
+          </h4><br><br>
+          <p>1x: The Legend of Zelda: Tears of the Kingdom ($89.99 CAD)</p>
+          <p>1x: Super Mario Odyssey
+            ($79.99 CAD)</p><br>
+          <h4 class="header4">Subtotal: $169.98</h4>
+          <h4 class="header4">Tax: $20.40</h4>
+          <h4 class="header4">Total: $190.38</h4>
+
+
+
+
+          <input class="button-nav" type="reset" value="Edit Cart">
+          <input class="button-nav" type="submit" value="Confirm Purchase">
+
+        </form>
+      </div>
+
+    </section>
+
+
+    <section class="element">
+      <h3>Fonts (Brand Components)</h3>
+      <br>
+
+      <!-- Learned from lab-->
+
+
+      <h2 class="header2">Poppins (For Headings)</h2>
+      <p>regular,</p>
+      <p>sans-serif font for headings, <a href="https://fonts.google.com/specimen/Poppins">Google Fonts</a></p>
+
+      <br>
+
+      <h2 class="serif header2">RobotoSlab (For Body Texts)</h2>
+      <p class="serif">regular</p>
+      <p>serif font for body texts, <a href="https://fonts.google.com/specimen/Roboto+Slab">Google Fonts</a></p>
+
+
+
+
+    </section>
+
+
+
+
+
+    <section class="element">
+      <h3>Colour Palette (Brand Components)</h3>
+
+      <!-- LEARNED LAB-->
+
+      <div class="box">
+
+        <div class="box-item palette">
+          <h2 class=" header2">White</h2>
+          <h3 class="header3">#FFFFFF</h3>
+          <h3 class="header3">Website Background Colour</h3>
+        </div>
+
+        <div class="box-item palette" style="background-color: black; color: white">
+          <h2 class=" header2">Black</h2>
+          <h3 class="header3">#000000</h3>
+          <h3 class="header3">Text, Headers</h3>
+        </div>
+
+        <div class="box-item palette" style="background-color: #f0f0f0; color: black">
+          <h2 class=" header2">Light Gray</h2>
+          <h3 class="header3">#F0F0F0</h3>
+          <h3 class="header3">Bubble Cards, Main Navigation Bar, Code</h3>
+        </div>
+
+        <div class="box-item palette" style="background-color: #dddddd; color: black">
+          <h2 class=" header2">Dark Gray</h2>
+          <h3 class="header3">#DDDDDD</h3>
+          <h3 class="header3">Anchor Navigation Bar</h3>
+        </div>
+
+        <div class="box-item palette" style="background-color: rgb(231, 50, 50); color: white">
+          <h2 class=" header2">Red</h2>
+          <h3 class="header3">#E73232</h3>
+          <h3 class="header3">Logo, Action Button Hover</h3>
+        </div>
+
+        <div class="box-item palette" style="background-color: #6c2626; color: white">
+          <h2 class=" header2">Maroon</h2>
+          <h3 class="header3">#6C2626</h3>
+          <h3 class="header3">Separators, Active Hover</h3>
+        </div>
+
+
+
+      </div>
+
+
+
+
+    </section>
+
+
+
+
+
+    <!-- Learned in Lab-->
+
+    <section class="element">
+      <h3>Art Direction (Brand Components)</h3>
+
+      <section class="box">
+
+        <figure class="artdirection">
+          <img src="img/21.png" alt="Red/Black Neon City" width="420">
+        </figure>
+
+        <figure class="artdirection">
+          <img src="img/22.png" alt="Red/Black Car" width="420">
+        </figure>
+
+        <figure class="artdirection">
+          <img src="img/23.png" alt="Red/Black Room" width="420">
+        </figure>
+
+      </section>
+
+
+
+    </section>
+
+
+
+    <section class="element">
+      <h3>What does the company do, or offer?</h3>
+
+      <p class="times">
+        Ninteneleven is an in-house video game development company that specializes in developing and selling original
+        video games. Their primary focus
+        is on creating immersive and entertaining gaming experiences for players of all ages and interests. They strive
+        to offer a diverse range of high-quality video games that cater to different genres, platforms, and gaming
+        preferences.
+      </p>
+
+
+
+    </section>
+
+    <section class="element">
+      <h3>Who is the company to potential customers? (as a person)</h3>
+
+      <p class="times">
+        Ninteneleven presents itself as a passionate and innovative gaming enthusiast to potential customers. The
+        company is seen as a reliable and trusted friend who understands the desires and needs of gamers. Ninteneleven
+        aims to be approachable, friendly, and dedicated to delivering unforgettable gaming experiences. They are
+        perceived as a company that listens to its customers, values their feedback, and actively engages with the
+        gaming community.
+      </p>
+
+
+
+    </section>
+
+    <section class="element">
+      <h3>Why might this company entice someone to purchase a product or service?</h3>
+
+      <p class="times">
+        Ninteneleven prides itself on providing exceptional high-quality gaming experiences, such as engaging gameplay,
+        stunning visuals and compelling storytelling. Their transparent business practices such as engaging and
+        responding to the community is what makes their games so spectacular and personal, and has created trust between
+        their fans.
+      </p>
+
+
+
+
+
+    </section>
+
+
+
+
+
+  </section>
+  <!-- // COMBINED ELEMENTS SECTION -->
+
+  <section id="citations">
+    <h2>Citations</h2>
+
+    <ul>
+
+      <li>
+        Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>.
+        Retrieved from
+        <a target="blank"
+          href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a>
+      </li>
+
+      <li>
+        Pinhorn, Jonny. Designer. 2014. <strong>Poppins [Font]</strong>. Retrieved
+        from <a target="blank"
+          href="https://fonts.google.com/specimen/Poppins">https://fonts.google.com/specimen/Poppins</a>.
+      </li>
+
+      <li>
+        Robertson, Christian. Designer. 2013. <strong>Roboto Slab [Font]</strong>. Retrieved
+        from <a target="blank"
+          href="https://fonts.google.com/specimen/Roboto+Slab">https://fonts.google.com/specimen/Roboto+Slab</a>.
+      </li>
+
+      <li>
+        Pinterest. <strong>Cyberpunk [Media]</strong>. Retrieved
+        from <a target="blank"
+          href="https://www.pinterest.ca/pin/723038915182213547/">https://www.pinterest.ca/pin/723038915182213547/</a>.
+      </li>
+
+      <li>
+        Bloomborg. 2019. <strong>Bugatti Rolls Royce [Media]</strong>. Retrieved
+        from <a target="blank"
+          href="https://www.bloomberg.com/news/articles/2019-06-07/lamborghini-bugatti-rolls-royce-make-millions-off-cars-you-design">https://www.bloomberg.com/news/articles/2019-06-07/lamborghini-bugatti-rolls-royce-make-millions-off-cars-you-design</a>.
+      </li>
+
+      <li>
+        homedit. 2014. <strong>Artwork [Media]</strong>. Retrieved
+        from <a target="blank"
+          href="https://www.homedit.com/does-art-need-white-walls/">https://www.homedit.com/does-art-need-white-walls/</a>.
+      </li>
+
+      <li>
+        Nintendo. <strong>Video Games [Media]</strong>. Retrieved
+        from <a target="blank" href="https://www.nintendo.com/en-ca/">https://www.nintendo.com/en-ca/</a>.
+      </li>
+
+      <li>
+        Google Images. <strong>Photos of Pikachu[Media]</strong>. Retrieved
+        from <a target="blank"
+          href="https://www.google.com/search?q=pikachu">https://www.google.com/search?q=pikachu</a>.
+      </li>
+
+      <li>
+        bitgab. <strong>Pikachu [Media]</strong>. Retrieved
+        from <a target="blank"
+          href="https://www.bitgab.com/exercise/pikachu">https://www.bitgab.com/exercise/pikachu</a>.
+      </li>
+
+    </ul>
+  </section>
+
+</body>
+
+</html>
