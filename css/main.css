@@ -191,3 +191,41 @@ input:focus {
 
 
 
+
+
+
+
+
+/* TESTING HOVER NAV */
+
+.nav-link {
+  color: black;
+  font-weight: bold;
+  /* font-size: 16px; */
+  /* text-transform: uppercase; */
+  padding: 0px 0px; /*making the line not too far to right*/
+  margin: 0px 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-link::before {
+  transition: 350ms; /* time it takes for bar to appear*/
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: red;
+}
+
+/*BAR WIDTH B4 HOVER */
+.nav-bar-up::before {
+  margin: -8px 0px; /*moving the red bar down*/
+  height: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+/* BAR HEIGHT WHEN HOVERED */
+.nav-bar-up:hover::before {
+  height: 3px;
+}
