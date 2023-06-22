@@ -230,3 +230,6 @@ input:focus {
   height: 4px;
 }
 
+.active {
+  background-color:#0469f7;
+}
