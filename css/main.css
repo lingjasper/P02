@@ -90,6 +90,11 @@ nav {
   padding: 0.5rem;
   display: block;
 }
+
+.topnav-right {
+  float: right;
+}
+
 /* SUB NAVIGATION BAR COLOUR */
 .navAnchor {
   background-color: #dddddd;
