@@ -63,7 +63,7 @@ a:hover {
  {
   color: #0469f7;
   text-decoration: none;
-  transition: 0.25s ease-in-out;
+  transition: 0.15s ease-in-out;
 }
 /* NINTENELEVEN RED */
 .logo {
@@ -210,7 +210,7 @@ input:focus {
 }
 
 .nav-link::before {
-  transition: 350ms; /* time it takes for bar to appear*/
+  transition: 0.15s; /* time it takes for bar to appear*/
   height: 5px;
   content: "";
   position: absolute;
@@ -227,5 +227,5 @@ input:focus {
 
 /* BAR HEIGHT WHEN HOVERED */
 .nav-bar-up:hover::before {
-  height: 3px;
+  height: 4px;
 }
