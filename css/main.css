@@ -112,23 +112,32 @@ code {
   INTERACTIVE ELEMENTS -------------------
 */
 /* Styling for the navigation button */
+/* nothing below makes the buttons turn grey after click*/
 .button-nav {
   display: inline-block;
   padding: 0.5rem;
-  color: #0469f7; /* TEXT AND BUTTON BORDER */
-  background-color:  #f0f0f0;
+  color: white; 
+  background-color: #1FADE0;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.25s;
   border-radius: 2rem;
-  border: solid;
+  border: none;
+  outline: none;
+  box-shadow: 0 5px grey;
 }
-.button-nav:hover,
-.button-nav:focus {
+.button-nav:hover{
+  color: white; 
   background-color: #0469f7;
-  border: solid #0469f7;
-  color: white;
+  transition: background-color 0.3s ease-out;
 }
+.button-nav:active {
+  background-color: #0469f7; 
+  color: white; 
+  box-shadow: 0 3px black;
+  transform: translateY(3px); 
+} 
+
 
 .field-nav {
   display: inline-block;
