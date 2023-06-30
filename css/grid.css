@@ -22,7 +22,7 @@
 
 .product-item-border {
     border: rgb(255, 255, 255) solid;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 2rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
@@ -30,8 +30,9 @@
 
 .product-item-border:hover,
 .product-item-border:focus {
-    border: rgb(108, 38, 38) solid;
-    padding: 2rem;
+    /* border: #0469f7 solid; */
+    background-color: #f0f0f0;
+    padding: 1rem;
     border-radius: 2rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
@@ -46,11 +47,20 @@
     margin-bottom: 1rem;
 }
 
-.pay-border:hover,
-.pay-border:focus,
+
 .total-border:hover,
 .total-border:focus {
-    border: rgb(108, 38, 38) solid;
+    border: #0469f7 solid;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    transition: 0.25s;
+}
+
+.pay-border:hover,
+.pay-border:focus{
+    border: #0469f7 solid;
     padding: 2rem;
     border-radius: 2rem;
     margin-right: 1rem;

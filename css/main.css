@@ -12,11 +12,11 @@ body {
 }
 /* HYPERLINK */
 a { 
-  color: rgb(108, 38, 38);
+  color: #0469f7;
 }
 /* HYPERLINK HOVER */
 a:hover {
-  color:rgb(255, 0, 0);
+  color: #1fade0;
   transition: 0.25s ease-in-out;
 }
 /* CATEGORY */
@@ -24,7 +24,7 @@ a:hover {
   padding-bottom: 2rem;
   border-top-width: 0.15rem;
   border-top-style: solid;
-  border-top-color: rgb(108, 38, 38)
+  border-top-color: #1fade0;
 }
 /* 3. Add a different hover and focus state styling to the in-text link. */
 .intext-link-button {
@@ -115,7 +115,7 @@ code {
 .button-nav {
   display: inline-block;
   padding: 0.5rem;
-  color: rgb(108, 38, 38);
+  color: #0469f7; /* TEXT AND BUTTON BORDER */
   background-color:  #f0f0f0;
   text-decoration: none;
   transition-property: background-color;
@@ -125,9 +125,27 @@ code {
 }
 .button-nav:hover,
 .button-nav:focus {
-  background-color: rgb(255, 255, 255);
-  border: solid #e73232;
-  color: #e73232;
+  background-color: #0469f7;
+  border: solid #0469f7;
+  color: white;
+}
+
+.field-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: #000000; /* TEXT AND BUTTON BORDER */
+  background-color:  #f0f0f0;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.25s;
+  border-radius: 2rem;
+  border: solid;
+}
+.field-nav:hover,
+.field-nav:focus {
+  background-color: #ffffff;
+  border: solid #0469f7;
+  color: black;
 }
 
 /* 
