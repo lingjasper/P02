@@ -102,6 +102,11 @@
 }
 
 
+@media (max-width: 1300px) {
+    .box {
+      flex-direction: column;
+    }
+  }
 
 
 
