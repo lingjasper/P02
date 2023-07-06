@@ -19,6 +19,7 @@ a:hover {
   color: #1fade0;
   transition: 0.25s ease-in-out;
 }
+
 /* CATEGORY */
 .element {
   padding-bottom: 2rem;
@@ -267,3 +268,6 @@ input:focus {
   color: white;
   font-size: 30px;
 }
+
+
+
