@@ -376,7 +376,7 @@ footer .container .contact li a {
 		align-items: flex-end;
 		margin-top: 80px;
 		width: 100%;
-	}
+  }
 
 	.nav-tab:not(:last-child) {
 		padding: 20px 25px;
@@ -399,6 +399,7 @@ footer .container .contact li a {
 		z-index: 2;
 		padding: 10px;
 		border-radius: 10px;
+    background-color: black;
 	}
 
 	.menu-btn .menu {
