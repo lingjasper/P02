@@ -397,9 +397,7 @@ footer .container .contact li a {
 		height: 15px;
 		cursor: pointer;
 		z-index: 2;
-		padding: 10px;
 		border-radius: 10px;
-    background-color: black;
 	}
 
 	.menu-btn .menu {
