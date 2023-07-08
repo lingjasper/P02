@@ -398,6 +398,7 @@ footer .container .contact li a {
 		cursor: pointer;
 		z-index: 2;
 		border-radius: 10px;
+    /*hamburger*/
 	}
 
 	.menu-btn .menu {
