@@ -249,6 +249,8 @@ footer .container .quicklinks ul li{
   list-style: none;
 }
 footer .container .quicklinks ul li a {
+  position: relative;
+  right: 40px;
   text-decoration: none;
   margin-bottom: 15px;
   display: inline-block;
@@ -257,6 +259,8 @@ footer .container .contact .info{
   position: relative;
 }
 footer .container .contact .info li{ 
+  position: relative;
+  right: 40px;
   display: grid;
   margin-bottom: 16px;
 }
